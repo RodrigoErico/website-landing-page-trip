@@ -1,0 +1,52 @@
+{
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsx]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "HTML": "html",
+    "CSS": "css",
+    "javascript": "javascriptreact",
+    "JSON": "json",
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "explorer.compactFolders": false,
+  "html.autoClosingTags": true,
+  "html.format.indentInnerHtml": true,
+  "eslint.alwaysShowStatus": true,
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.enable": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.quoteProps": "consistent",
+  "prettier.jsxSingleQuote": false,
+  "prettier.bracketSpacing": true,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.trailingComma": "es5",
+  "prettier.endOfLine": "lf",
+  "prettier.ignorePath": ".prettierignore",
+  "cSpell.language": "en,pt,pt_BR",
+}
